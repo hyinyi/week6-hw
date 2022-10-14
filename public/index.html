@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Click Movie Picker</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1> One-Click Movie Picker</h1>
+    <h2 class="project__heading"> Movie of the Day </h2>
+
+
+    <section class="project__container">
+        <p class="movie__name" id="m-name"></p>
+        <div class="project_image">
+            <img class="movie__image" id="m-img" />
+        </div>
+        <p class="movie__rating" id="m-rating"></p>
+
+        <button id='btn' type="button" onClick="window.location.reload();">Don't like it </button>
+    </section>
+
+    <div id="canvas-container"></div>
+
+    <script src="app.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+</body>
+
+</html>
